@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - "7"
   - "8"
-script: cd server && npm install && npm test
+script: npm install && npm test
 services:
   - mongodb
